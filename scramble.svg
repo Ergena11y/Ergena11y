@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 80">
+  <style>
+    .scramble-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      font-size: 26px;
+      fill: #4af626; 
+    }
+
+    @keyframes scramble {
+      0% { content: "P_r$v!t, ya F@llst&ck"; }
+      10% { content: "Xp7v#t, y1 F*llstck"; }
+      20% { content: "Priv9t, ya Fu11st@k"; }
+      30% { content: "Privet, ya Fullst&ck"; }
+      40% { content: "Привет, я F#llstack"; }
+      50%, 100% { content: "Привет, я Fullstack разработчик!"; }
+    }
+
+    .scramble-text::after {
+      content: "";
+      animation: scramble 4s steps(1, end) infinite;
+    }
+
+    /* Мигающий курсор в конце */
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+    }
+  </style>
+
+  
+  <text x="20" y="45" class="scramble-text"></text>
+  <text x="480" y="45" class="scramble-text cursor">_</text>
+</svg>
