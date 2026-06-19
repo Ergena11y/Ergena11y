@@ -1,16 +1,16 @@
-## Hi there 👋
+<div aligin="right">
+# Ergen Alymbekov
+ junior backend developer · Bishkek, Kyrgyzstan 🇰🇬  
+ Attractor School '25 · Java · Spring Boot · NestJS  
+ built real projects · learning every day · open to work
 
-<!--
-**Ergena11y/Ergena11y** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ --- 
 
-Here are some ideas to get you started:
+ [website](https://ervyn-dev.vercel.app)  ·  [telegram](https://t.me/Ervyn_x)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ ---
+ ## Quote of the day
+
+!
+ 
+ </div>
