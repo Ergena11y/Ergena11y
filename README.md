@@ -9,7 +9,7 @@
 # ergen alymbekov
 junior backend developer &nbsp;·&nbsp; Bishkek, Kyrgyzstan  
 Attractor School '26 &nbsp;·&nbsp; Java · Spring Boot · NestJS · TypeScript  
-building things quietly &nbsp;·&nbsp; open to work
+·&nbsp; open to work
 
 [website](https://ervyn-dev.vercel.app)
 
