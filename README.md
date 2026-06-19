@@ -1,8 +1,9 @@
+
 <div align="right">
 
 <br>
 
-# ergen alymbekov
+# ![ergen alymbekov](scramble.svg)
 
 junior backend developer &nbsp;·&nbsp; Bishkek, Kyrgyzstan  
 Attractor School '26 &nbsp;·&nbsp; Java · Spring Boot · NestJS · TypeScript  
