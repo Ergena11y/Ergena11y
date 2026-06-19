@@ -1,36 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 80">
+<svg xmlns="http://w3.org" viewBox="0 0 650 140">
   <style>
-    .scramble-text {
+    .profile-text {
       font-family: 'Courier New', Courier, monospace;
       font-weight: bold;
-      font-size: 26px;
-      fill: #4af626; 
+      fill: #ffffff; 
     }
+    .name { font-size: 28px; }
+    .title { font-size: 20px; fill: #8b949e; } /* Серый цвет для сабтайтла */
+    .status { font-size: 16px; fill: #238636; } /* Зеленый цвет для "open to work" */
 
+   
     @keyframes scramble {
-      0% { content: "P_r$v!t, ya F@llst&ck"; }
-      10% { content: "Xp7v#t, y1 F*llstck"; }
-      20% { content: "Priv9t, ya Fu11st@k"; }
-      30% { content: "Privet, ya Fullst&ck"; }
-      40% { content: "Привет, я F#llstack"; }
-      50%, 100% { content: "Привет, я Fullstack разработчик!"; }
+      0% { content: "J_n!or B@cknd D*v | B#shk_k"; }
+      15% { content: "Jun9or Ba1knd Dev | Bi5hkek"; }
+      30% { content: "Junior Backnd Dev | Bishkek"; }
+      45%, 100% { content: "Junior Backend Developer · Bishkek, Kyrgyzstan"; }
     }
 
-    .scramble-text::after {
+    .scramble-title::after {
       content: "";
       animation: scramble 4s steps(1, end) infinite;
     }
 
-    /* Мигающий курсор в конце */
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-    .cursor {
-      animation: blink 0.8s infinite;
-    }
+    @keyframes blink { 50% { opacity: 0; } }
+    .cursor { animation: blink 0.8s infinite; }
   </style>
 
   
-  <text x="20" y="45" class="scramble-text"></text>
-  <text x="480" y="45" class="scramble-text cursor">_</text>
+  <text x="20" y="40" class="profile-text name">ergen alymbekov</text>
+  
+
+  <text x="20" y="75" class="profile-text title scramble-title"></text>
+  <text x="590" y="75" class="profile-text title cursor">_</text>
+
+  <text x="20" y="105" class="profile-text title" style="font-size: 16px;">Java · Spring Boot · NestJS · TypeScript</text>
+  <text x="20" y="125" class="profile-text status">building things quietly · open to work</text>
 </svg>
+
