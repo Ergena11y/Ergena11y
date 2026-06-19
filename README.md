@@ -1,16 +1,20 @@
-<div aligin="right">
-# Ergen Alymbekov
- junior backend developer · Bishkek, Kyrgyzstan 🇰🇬  
- Attractor School '25 · Java · Spring Boot · NestJS  
- built real projects · learning every day · open to work
+<div align="right">
 
- --- 
+<br>
 
- [website](https://ervyn-dev.vercel.app)  ·  [telegram](https://t.me/Ervyn_x)
+# ergen alymbekov
 
- ---
- ## Quote of the day
+junior backend developer &nbsp;·&nbsp; Bishkek, Kyrgyzstan  
+Attractor School '25 &nbsp;·&nbsp; Java · Spring Boot · NestJS · TypeScript  
+building things quietly &nbsp;·&nbsp; open to work
 
-!
- 
- </div>
+<br>
+
+[portfolio](https://ervyn-dev.vercel.app) &nbsp;
+
+
+<br><br>
+<i></i><br/>
+<i><b> </i></b>
+
+</div>
