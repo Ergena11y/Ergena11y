@@ -1,70 +1,25 @@
-<div class="scramble-container">
-  <span class="scramble-text" data-text="Hello, World!">Welcome</span>
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="200" viewBox="0 0 680 200" role="img" aria-label="Ergena11y profile image">
+  <!-- background -->
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f1724"/>
+      <stop offset="1" stop-color="#071428"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <!-- decorative lines -->
+  <g opacity="0.12" stroke="#ffffff" stroke-width="2">
+    <path d="M0 40 C120 20, 220 60, 340 40 S560 20, 680 40" fill="none"/>
+    <path d="M0 160 C120 180, 220 140, 340 160 S560 180, 680 160" fill="none"/>
+  </g>
 
-<style>
-  .scramble-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #0d1117;
-    color: #58a6ff;
-    padding: 20px;
-    border-radius: 8px;
-  }
+  <!-- main text -->
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, Roboto, system-ui, sans-serif" font-weight="700"
+        font-size="48" fill="#cfe8ff">Ergena11y</text>
 
-  .scramble-text {
-    position: relative;
-    display: inline-block;
-  }
-
-  .scramble-text::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #0d1117;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    animation: scrambleGlitch 2.5s ease-in-out infinite;
-    color: #ff7b72;
-  }
-
-  @keyframes scrambleGlitch {
-    0% {
-      content: "█▒░▓█";
-      clip-path: polygon(0 0, 100% 0, 100% 10%, 0 10%);
-      transform: translate(-2px, 2px);
-    }
-    10% {
-      content: "▓▒ █▒";
-      clip-path: polygon(0 20%, 100% 20%, 100% 35%, 0 35%);
-      transform: translate(2px, -1px);
-    }
-    20% {
-      content: "░▒▓ ▒";
-      clip-path: polygon(0 40%, 100% 40%, 100% 55%, 0 55%);
-      transform: translate(-1px, -2px);
-    }
-    30% {
-      content: "█▓ ▒░";
-      clip-path: polygon(0 65%, 100% 65%, 100% 80%, 0 80%);
-      transform: translate(2px, 1px);
-    }
-    40% {
-      content: "▒▓█ ▒";
-      clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
-      transform: translate(-2px, -1px);
-    }
-    50%, 100% {
-      content: attr(data-text);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-      transform: translate(0, 0);
-    }
-  }
-</style>
-
+  <!-- subtext -->
+  <text x="50%" y="74%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Inter, Roboto, system-ui, sans-serif" font-weight="400"
+        font-size="16" fill="#9fb6d8">Accessibility • Frontend • Open Source</text>
+</svg>
