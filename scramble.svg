@@ -1,40 +1,30 @@
-<svg xmlns="http://w3.org/2000/svg" viewBox="0 0 680 150">
-  <style>
-    .profile-text {
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: bold;
-      fill: #ffffff; 
-    }
-    .name { font-size: 28px; text-transform: capitalize; }
-    .title { font-size: 20px; fill: #8b949e; } 
-    .status { font-size: 16px; fill: #238636; } 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150">
+  <defs>
+    <style>
+      .profile-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        fill: #ffffff; 
+      }
+      .name { font-size: 28px; text-transform: capitalize; }
+      .title { font-size: 20px; fill: #8b949e; } 
+      .status { font-size: 16px; fill: #238636; } 
 
-    @keyframes scramble {
-      0% { content: "J_n!or B@cknd D*v | B#shk_k"; }
-      15% { content: "Jun9or Ba1knd Dev | Bi5hkek"; }
-      30% { content: "Junior Backnd Dev | Bishkek"; }
-      45%, 100% { content: "Junior Backend Developer · Bishkek, Kyrgyzstan"; }
-    }
-
-    .scramble-title::after {
-      content: "";
-      animation: scramble 4s steps(1, end) infinite;
-    }
-
-    @keyframes blink { 50% { opacity: 0; } }
-    .cursor { animation: blink 0.8s infinite; }
-  </style>
+      @keyframes blink { 50% { opacity: 0; } }
+      .cursor { animation: blink 0.8s infinite; }
+    </style>
+  </defs>
 
   <!-- Имя -->
   <text x="20" y="40" class="profile-text name">ergen alymbekov</text>
   
-  <!-- Анимация -->
-  <text x="20" y="75" class="profile-text title scramble-title"></text>
+  <!-- Текст с анимацией -->
+  <text x="20" y="75" class="profile-text title">
+    <tspan>Junior Backend Developer · Bishkek, Kyrgyzstan</tspan>
+  </text>
   <text x="590" y="75" class="profile-text title cursor">_</text>
 
   <!-- Стек и статус -->
   <text x="20" y="105" class="profile-text title" style="font-size: 16px;">Java · Spring Boot · NestJS · TypeScript</text>
   <text x="20" y="125" class="profile-text status">building things quietly · open to work</text>
 </svg>
-
-
